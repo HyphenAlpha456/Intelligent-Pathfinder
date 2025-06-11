@@ -44,17 +44,11 @@ Under the hood, the tool uses an **enhanced A\*** algorithm with diagonal path s
 - `index.html` – Main structure of the app  
 - `styles.css` – All visual styling  
 - `script.js` – Core algorithm and interaction logic  
-- `demo.gif` – Screen-recorded visual demo (included for preview below)
+
 
 ---
 
-## 📽️ Demo
 
-Here’s how the visualizer works in action:
-
-![Demo](demo.gif)
-
----
 
 ## 🚀 Practical Use Cases
 
