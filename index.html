@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Dynamic Pathfinding Visualizer</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <h1>Dynamic Pathfinding with Real-Time Obstacles</h1>
+  <div class="controls">
+    <button onclick="setMode('start')">Set Start</button>
+    <button onclick="setMode('end')">Set End</button>
+    <button onclick="setMode('obstacle')">Add/Remove Obstacle</button>
+    <button onclick="setMode('cost')">Set Cost</button>
+    <button onclick="findPath()">Find Path</button>
+    <select id="priority" onchange="setPriority(this.value)">
+      <option value="fast">Fastest Route</option>
+      <option value="cheap">Cheapest Route</option>
+    </select>
+  </div>
+  <div id="grid"></div>
+  <script src="script.js"></script>
+</body>
+</html>
