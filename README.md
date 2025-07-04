@@ -77,7 +77,7 @@ Under the hood, the tool uses an **enhanced A\*** algorithm with diagonal path s
 ## 📌 Getting Started
 
 1. Clone or download the repository  
-2. Place all files (`index.html`, `styles.css`, `script.js`, `demo.gif`) in the same folder  
+2. Place all files (`index.html`, `styles.css`, `script.js`) in the same folder  
 3. Open `index.html` in your browser  
 4. Start experimenting with setting start/end points, obstacles, and priorities!
 
